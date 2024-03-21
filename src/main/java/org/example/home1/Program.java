@@ -17,8 +17,6 @@ public class Program {
         Note note = new Note(noteText);
         System.out.println("Укажите путь к файлу, чтобы программа записывала туда заметки");
 
-//        System.out.println("Ошибка не указан путь к файлу!");
-//        System.out.println("Укажи уже путь к файлу, чтобы программа записывала туда заметки:");
 
         String filePath = scanner.nextLine();
 
